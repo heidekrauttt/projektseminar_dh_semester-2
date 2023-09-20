@@ -1,0 +1,6 @@
+PRINZESSIN: Zuerst Tomaten, dann Salat, und dann den Schinken und die Suppe.
+ ZWEISCHMIDT: Und dann noch den Schinken und die Suppe.
+ ZWEISCHMIDT: Und nun noch Salat und Suppe.
+ KATHARINA: Und nun noch Salat, dann Salat und Suppe.
+ ZWEISCHMIDT: Aber nicht so viel Salat, sondern nur Salat und Suppe.
+ KATHARINA: Das sind die besten und leckersten Salat.

@@ -1,0 +1,10 @@
+generated_filenames,Minimal_Mean_Sentence_Length,Occurrences,Min_Number_of_Speakers,Max_Number_of_Speakers,min_speech_length_span,max_speech_length_span,min_speech_length_stdev,max_speech_length_stdev,min_food_verbs,food_noun_count,trial,num_generations
+gen33.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen23.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen52.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen70.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen59.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen98.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen3.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen38.txt,0,1,2,4,0,100,0,100,4,6,1,9
+gen17.txt,0,1,2,4,0,100,0,100,4,6,1,9

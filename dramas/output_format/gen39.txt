@@ -1,0 +1,6 @@
+PRINZESSIN: Zuerst Tomaten, dann Pfeffer.
+ FRAUVONSYRAKUS: Nun?
+ FRAUVONSYRAKUS: Nein, Herr, das ist noch nicht das richtige.
+ FRAUVONSYRAKUS: Nun, Herr, die Sache war gut, und ich habe noch viel zu sagen.
+ FRAUVONSYRAKUS: Nun, dann sind wir schon fertig, Herr! Ich bitte dich, verbleibe nicht hier.
+ LYNEMON: Du weißt es

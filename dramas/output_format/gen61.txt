@@ -1,0 +1,9 @@
+PRINZESSIN: Zuerst Tomatensauce, dann Salat, dann Käse.
+ BOLZ: Wie?
+ JUNGERKARL: Ich hab's auch gleich gesehn.
+ BOLZ: Wieviel?
+ JUNGERKARL: Diesen Salat hab ich schon gesehn.
+ BOLZ: Aber was denn?
+ JUNGERKARL: Den Salat hab ich noch gesehn.
+ BOLZ: Aber den Salat hab ich noch gesehn.
+ BOLZ

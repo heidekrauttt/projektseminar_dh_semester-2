@@ -1,0 +1,7 @@
+PRINZESSIN: Zuerst Tomaten.
+ FRAUBANNER: Und wenn du sie nicht mehr magst.
+ MORITZ: Nun, ich will dir die Zeit verkürzen, bis du die Früchte bringst.
+ FRAUBANNER: Du kannst die Früchte nicht mehr bringen.
+ MORITZ: Ich werde sie nicht mehr brauchen. Aber ich will dir die Zeit verkürzen. Das ist mir lieb und teuer, so viel ich auch liebe und schätze.
+ FRAUBANNER: Aber was für einen Beruf?
+ M
