@@ -211,19 +211,22 @@ def similar_sentence(dramas_df):
 # by @TheynT & @Mel
 def phrasenwiederholung_lexicalrichness(dramas_df):
     '''
-    phrasenwiederholung
+    phrasenwiederholung_lexicalrichness
 
     :param dramas_df: takes a dataframe
-    :return dramas_df: returns the input df with a new column scene_has_phrase_repetition
+    :return dramas_df: returns the input df with four new columns: ttr, moving_ttr, mtld & repetitive_ngrams
 
     Iterates over every drama in dramas_df, every sentence in a drama.
     Forms bigrams for every sentence then checks if those bigrams occur >= considered_phrase_repetition (default: 3).
     If a repetition is found, counts it and saves every repetition of a scene in a list.
     Then adds list as a new colum to dramas_df, before returning it.
 
+    Since this function already iterates over every sentence and every word in a drama, it has been extended to calculate the lexical richness of a drama.
+    To do this, the drama is sanitised in terms of speaker information and punctuation, then its TTR, MATTR and MTLD values are calculated.
+    These values are stored in lists, which in turn are added as new columns to dramas_df, before returning it.
+    
     If the debug var is set to True it outputs additional information during runtime.
 
-    Perkuhn, Rainer, Holger Keibel & Marc Kupietz. 2012. Korpuslinguistik. Paderborn: Fink.
     Authors: Leon, Melina
     '''
     # change this var to alter how many occurances of the same bigram are considered repetitive
@@ -263,7 +266,7 @@ def phrasenwiederholung_lexicalrichness(dramas_df):
             print(f"Moving Average TTR: {ld.mattr(allwords)}")
             print(f"MTLD: {ld.mtld(allwords)}")
         ttr_list.append(ld.ttr(allwords))
-        moving_ttr_list.append(ld.root_ttr(allwords))
+        moving_ttr_list.append(ld.mattr(allwords))
         mtld_list.append(ld.mtld(allwords))
         allwords.clear()
         repetition_list.append(repetition_counter)
